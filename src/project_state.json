@@ -1,0 +1,168 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 9,
+  "summary": "Position the Joynexm Corporate Solutions website specifically around Joynexm as an all-in-one corporate procurement partner (corporate gifting + admin supplies) for Pune & Mumbai enterprises, featuring stronger above-the-fold messaging and procurement-focused CTAs.",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "existing_features": [
+    {
+      "id": "feature-create-a-premium-modern-multi-page-corporate-website-for-joynexm-corporate-solutions-with-clear-navigation-and-content-sections-that-communicate-the-company-s-value-proposition-and-services-for-enterprises-in-pune-and-mumbai",
+      "title": "Create a premium, modern multi-page corporate website for “Joynexm Corporate Solutions” with clear navigation and content sections that communicate the company’s value proposition and services for enterprises in Pune and Mumbai.",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-establish-and-apply-a-coherent-high-end-visual-theme-colors-typography-spacing-components-and-motion-appropriate-for-a-corporate-consulting-solutions-brand-and-enforce-it-consistently-across-the-site",
+      "title": "Establish and apply a coherent, high-end visual theme (colors, typography, spacing, components, and motion) appropriate for a corporate consulting/solutions brand, and enforce it consistently across the site.",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-home-page-with-premium-hero-section-concise-positioning-statement-service-highlights-trust-credibility-section-e-g-stats-principles-or-process-and-a-prominent-call-to-action-leading-to-contact",
+      "title": "Implement a Home page with premium “hero” section, concise positioning statement, service highlights, trust/credibility section (e.g., stats, principles, or process), and a prominent call-to-action leading to Contact.",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-services-page-that-presents-joynexm-corporate-solutions-offerings-in-a-structured-layout-service-cards-sections-with-title-short-description-and-what-s-included-outcomes",
+      "title": "Implement a Services page that presents Joynexm Corporate Solutions’ offerings in a structured layout (service cards/sections with title, short description, and what’s included/outcomes).",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-an-about-page-that-communicates-company-overview-differentiators-and-operating-footprint-pune-and-mumbai-focus-with-a-professional-corporate-tone",
+      "title": "Implement an About page that communicates company overview, differentiators, and operating footprint (Pune and Mumbai focus) with a professional, corporate tone.",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-contact-page-with-a-validated-contact-form-name-email-company-phone-optional-message-and-submission-success-error-states",
+      "title": "Implement a Contact page with a validated contact form (name, email, company, phone (optional), message) and submission success/error states.",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-essential-site-polish-seo-friendly-metadata-per-page-title-description-accessible-semantics-headings-labels-focus-states-and-a-footer-with-company-name-and-basic-navigation-links",
+      "title": "Add essential site polish: SEO-friendly metadata per page (title/description), accessible semantics (headings, labels, focus states), and a footer with company name and basic navigation links.",
+      "reqIds": [
+        "REQ-8"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-add-required-generated-images-to-the-frontend-as-static-assets-and-use-them-in-the-ui-do-not-route-images-through-the-backend",
+      "title": "Add required generated images to the frontend as static assets and use them in the UI (do not route images through the backend).",
+      "reqIds": [
+        "REQ-9"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-home-page-frontend-src-pages-homepage-tsx-above-the-fold-hero-content-to-match-the-provided-procurement-partner-messaging-including-the-new-headline-subheading-and-two-primary-cta-buttons-labeled-request-a-corporate-catalogue-and-get-a-bulk-quote-the-ctas-must-be-clickable-and-navigate-users-to-an-existing-page-in-the-site-e-g-contact-without-creating-new-routes",
+      "title": "Update the Home page (frontend/src/pages/HomePage.tsx) above-the-fold Hero content to match the provided procurement-partner messaging, including the new headline, subheading, and two primary CTA buttons labeled “Request a Corporate Catalogue” and “Get a Bulk Quote”. The CTAs must be clickable and navigate users to an existing page in the site (e.g., /contact) without creating new routes.",
+      "reqIds": [
+        "REQ-10"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-revise-the-home-page-content-sections-below-the-hero-to-reflect-joynexm-s-positioning-as-a-centralized-corporate-procurement-partner-corporate-gifting-admin-supplies-using-the-provided-content-blocks-why-joynexm-serving-pune-mumbai-corporates-including-the-listed-localities-our-core-focus-corporate-gifting-admin-supplies-including-both-focus-areas-and-bullet-items-recurring-contract-model-including-the-four-contract-options-and-the-supporting-sentence-and-why-corporates-choose-us-including-all-listed-reasons-and-the-closing-statement",
+      "title": "Revise the Home page content sections below the Hero to reflect Joynexm’s positioning as a centralized corporate procurement partner (corporate gifting + admin supplies), using the provided content blocks: “Why Joynexm?”, “Serving Pune & Mumbai Corporates” (including the listed localities), “Our Core Focus – Corporate Gifting & Admin Supplies” (including both focus areas and bullet items), “Recurring Contract Model” (including the four contract options and the supporting sentence), and “Why Corporates Choose Us” (including all listed reasons and the closing statement).",
+      "reqIds": [
+        "REQ-11"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-replace-the-existing-home-page-bottom-call-to-action-block-with-the-provided-call-to-action-section-copy-and-render-two-buttons-labeled-exactly-request-quote-and-schedule-meeting-user-facing-button-labels-must-be-request-quote-and-schedule-meeting-buttons-must-navigate-to-an-existing-page-e-g-contact",
+      "title": "Replace the existing Home page bottom call-to-action block with the provided “Call to Action Section” copy, and render two buttons labeled exactly “[ Request Quote ]” and “[ Schedule Meeting ]” (user-facing button labels must be “Request Quote” and “Schedule Meeting”). Buttons must navigate to an existing page (e.g., /contact).",
+      "reqIds": [
+        "REQ-12"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-home-page-seo-metadata-usepagemeta-in-frontend-src-pages-homepage-tsx-to-align-with-the-procurement-partner-positioning-for-pune-mumbai-ensuring-the-title-and-description-are-in-english-and-reflect-corporate-procurement-gifting-and-admin-supplies",
+      "title": "Update the Home page SEO metadata (usePageMeta in frontend/src/pages/HomePage.tsx) to align with the procurement-partner positioning for Pune & Mumbai, ensuring the title and description are in English and reflect corporate procurement, gifting, and admin supplies.",
+      "reqIds": [
+        "REQ-13"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-site-branding-to-include-the-tagline-text-grow-together-alongside-the-joynexm-name-so-users-can-see-joynexm-with-grow-together-as-a-tagline-in-the-primary-header-branding-top-navigation",
+      "title": "Update site branding to include the tagline text “Grow together” alongside the Joynexm name, so users can see “Joynexm” with “Grow together” as a tagline in the primary header branding (top navigation).",
+      "reqIds": [
+        "REQ-14"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-footer-branding-to-include-the-same-tagline-grow-together-near-the-joynexm-name-for-consistent-site-wide-branding",
+      "title": "Update footer branding to include the same tagline “Grow together” near the Joynexm name for consistent site-wide branding.",
+      "reqIds": [
+        "REQ-15"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-update-the-site-s-visual-theme-to-a-smart-blue-color-direction-by-adjusting-the-tailwind-theme-tokens-css-variables-so-that-global-backgrounds-and-section-backgrounds-e-g-muted-accent-sections-read-as-modern-corporate-blue-rather-than-the-current-warm-neutral-palette",
+      "title": "Update the site’s visual theme to a “smart blue” color direction by adjusting the Tailwind theme tokens (CSS variables) so that global backgrounds and section backgrounds (e.g., muted/accent sections) read as modern corporate blue rather than the current warm-neutral palette.",
+      "reqIds": [
+        "REQ-16"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Design and build a top-notch modern corporate website for Joynexm Corporate Solutions (services/value proposition, premium look).",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-8",
+      "summary": "Add backend support to store contact inquiries and expose query methods to retrieve them (for future admin use), with basic spam mitigation such as rate limiting per caller or a simple submission cooldown.",
+      "reqIds": [
+        "REQ-7"
+      ],
+      "status": "pending"
+    },
+    {
+      "id": "AR-9",
+      "summary": "Update the Home page hero/above-the-fold content to the provided procurement-partner messaging, including CTAs (Request Corporate Catalogue, Get a Bulk Quote) and a supporting CTA section (Request Quote, Schedule Meeting), plus Pune/Mumbai service areas and key differentiators.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-10",
+      "summary": "Add the tagline “Grow together” alongside/under the Joynexm name in site branding (e.g., header/hero) as requested: “Joynexm Grow together”.",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-11",
+      "summary": "Update the site background (and/or Team section background) to a “smart blue” color theme as requested.",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Joynexm Corporate Solutions",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

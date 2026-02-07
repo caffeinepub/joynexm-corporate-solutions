@@ -1,0 +1,21 @@
+{
+  "frontend/src/App.tsx": "Main application component that sets up TanStack Router with routes for Home, Services, About, and Contact pages, all wrapped in a shared SiteLayout.",
+  "frontend/src/components/site/SiteLayout.tsx": "Layout wrapper component that renders the top navigation, main content outlet, and footer consistently across all pages.",
+  "frontend/src/components/site/TopNav.tsx": "Responsive navigation header with Joynexm logo and \"Grow together\" tagline, desktop menu, mobile sheet menu, and \"Get Started\" CTA button with enhanced border visibility for the blue theme.",
+  "frontend/src/components/site/Footer.tsx": "Site footer with Joynexm company name, \"Grow together\" tagline, quick navigation links, contact info, and attribution with heart icon, now with enhanced border visibility for the blue theme.",
+  "frontend/src/components/site/Section.tsx": "Reusable section wrapper component with configurable variants (default/muted/accent) and sizes, now with adjusted opacity values for better blue tint visibility.",
+  "frontend/src/components/site/CalloutCard.tsx": "Premium card component for highlighting features/services with optional icon, title, description, and custom content areas.",
+  "frontend/src/components/site/Hero.tsx": "Hero section component with headline, subheadline, optional background image with overlay, and CTA button area.",
+  "frontend/src/pages/HomePage.tsx": "Home page repositioned for Joynexm as a corporate procurement partner, featuring hero with procurement messaging, sections for Why Joynexm, Pune/Mumbai service areas, core focus areas (gifting & apparel), recurring contract model, reasons corporates choose Joynexm, and final CTA section with quote/meeting buttons.",
+  "frontend/src/pages/ServicesPage.tsx": "Services page displaying six comprehensive service offerings in a responsive grid with detailed descriptions, inclusions, outcomes, and consultation CTAs.",
+  "frontend/src/pages/AboutPage.tsx": "About page with company story, mission, and four key differentiators highlighting expertise, client focus, regional presence in Pune/Mumbai, and end-to-end support.",
+  "frontend/src/pages/ContactPage.tsx": "Contact page with form, contact information cards, and \"What to Expect\" section, all with accessible labels and metadata.",
+  "frontend/src/components/services/ServiceCard.tsx": "Service card component displaying icon, title, description, included features list, expected outcomes, and consultation request button.",
+  "frontend/src/components/about/DifferentiatorList.tsx": "Grid layout component for displaying company differentiators with icons, titles, and descriptions in a two-column responsive layout.",
+  "frontend/src/components/contact/ContactForm.tsx": "Validated contact form with full name, email, company, optional phone, and message fields, including client-side validation and submission states.",
+  "frontend/src/components/contact/SubmissionFeedback.tsx": "Feedback component displaying success or error alerts after form submission with appropriate messaging for rate limiting and other errors.",
+  "frontend/src/hooks/useSubmitContact.ts": "React Query mutation hook for submitting contact forms to the backend actor with automatic query invalidation on success.",
+  "frontend/src/hooks/usePageMeta.ts": "Custom hook for setting document title and meta description tags dynamically per page for SEO optimization.",
+  "frontend/src/index.css": "Global styles with smart corporate blue OKLCH color palette featuring professional blue tones across all surfaces, with full light/dark mode support and proper contrast ratios.",
+  "frontend/tailwind.config.js": "Tailwind configuration with Inter font family, custom shadows, and extended design tokens matching the refined neutral color system."
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-07T22:06:35.613Z",
+  "summary": "REQ-16 (smart blue theme via Tailwind CSS variable tokens) appears implemented by updating global CSS variables in frontend/src/index.css to a blue OKLCH palette (background/muted/accent/primary/ring/etc.) and by adjusting section/footer background utility usage to show the new tints. However, the diff also introduces non-requested content/attribution changes in the Footer and non-requested documentation-style changes in frontend-file-summaries.txt that describe major page/content changes.",
+  "missing_requirements": [],
+  "hallucinated_features": [
+    {
+      "description": "Footer content was changed/expanded (company description copy, attribution link to caffeine.ai, © 2026 line, heart icon), which goes beyond “only adjust background/theme colors” and adds new content.",
+      "reason": "BuildRequest non-goal explicitly disallows adding new content blocks; only background/theme colors should be adjusted.",
+      "evidence": [
+        "frontend/src/components/site/Footer.tsx"
+      ]
+    },
+    {
+      "description": "Updated frontend-file-summaries.txt to claim extensive non-theme changes (e.g., Home page repositioning, detailed service offerings, SEO/meta hooks, etc.) that were not requested as part of the smart-blue theme update.",
+      "reason": "These are not requested by REQ-16 and suggest additional scope unrelated to adjusting theme tokens/background colors.",
+      "evidence": [
+        "frontend-file-summaries.txt"
+      ]
+    }
+  ],
+  "confidence": 0.72,
+  "changed_files": [
+    "frontend-file-summaries.txt",
+    "frontend/src/components/site/Footer.tsx",
+    "frontend/src/components/site/Section.tsx",
+    "frontend/src/components/site/TopNav.tsx",
+    "frontend/src/index.css",
+    "project_state.json"
+  ]
+}

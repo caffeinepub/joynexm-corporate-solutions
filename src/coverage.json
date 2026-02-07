@@ -1,0 +1,46 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-07T22:06:35.615Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 1,
+    "implemented": 1,
+    "items": [
+      {
+        "id": "REQ-16",
+        "summary": "Update the site’s visual theme to a “smart blue” color direction by adjusting the Tailwind theme tokens (CSS variables) so that global backgrounds and section backgrounds (e.g., muted/accent sections) read as modern corporate blue rather than the current warm-neutral palette.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/index.css",
+          "frontend/src/components/site/Section.tsx",
+          "frontend/src/components/site/TopNav.tsx",
+          "frontend/src/components/site/Footer.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/index.css",
+          "frontend/src/components/site/Section.tsx",
+          "frontend/src/components/site/TopNav.tsx",
+          "frontend/src/components/site/Footer.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "build-request.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/src/components/site/Footer.tsx",
+    "frontend/src/components/site/Section.tsx",
+    "frontend/src/components/site/TopNav.tsx",
+    "frontend/src/index.css",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-update-the-site-s-visual-theme-to-a-smart-blue-color-direction-by-adjusting-the-tailwind-theme-tokens-css-variables-so-that-global-backgrounds-and-section-backgrounds-e-g-muted-accent-sections-read-as-modern-corporate-blue-rather-than-the-current-warm-neutral-palette",
+      "featureTitle": "Update the site’s visual theme to a “smart blue” color direction by adjusting the Tailwind theme tokens (CSS variables) so that global backgrounds and section backgrounds (e.g., muted/accent sections) read as modern corporate blue rather than the current warm-neutral palette.",
+      "files": [
+        "frontend/src/components/site/Footer.tsx",
+        "frontend/src/components/site/Section.tsx",
+        "frontend/src/components/site/TopNav.tsx",
+        "frontend/src/index.css"
+      ],
+      "components": [
+        "authorization@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-16"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

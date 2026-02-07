@@ -1,0 +1,38 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Smart blue background theme via Tailwind CSS variable tokens",
+  "requirements": [
+    {
+      "id": "REQ-16",
+      "summary": "Shift the global surface and primary palette from warm-neutral to a cohesive smart-corporate blue by updating theme CSS variables and ensuring section/background variants render consistently across key pages.",
+      "acceptanceCriteria": [
+        "Light mode background, muted, and accent surfaces use a cohesive smart-blue tint (not warm beige/neutral).",
+        "Primary interactive elements (e.g., primary buttons, focus rings, primary icons) reflect the updated smart-blue palette and remain readable with sufficient contrast.",
+        "Pages Home, Services, About, and Contact consistently reflect the updated background theme without breaking layout or readability."
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Update light/dark mode OKLCH CSS variables (e.g., --background, --foreground, --primary, --ring, --muted, --accent, --border/input) from the current warm-neutral hues to a cohesive smart-blue direction; validate contrast for text, primary controls, and focus rings across light mode surfaces."
+        },
+        {
+          "path": "frontend/src/components/site/Section.tsx",
+          "operation": "modify",
+          "description": "Tune Section variant surface treatments (muted/accent background utility usage and opacity) so muted/accent sections clearly read as smart-blue tinted surfaces while preserving readability and existing layout (no routing/page changes)."
+        },
+        {
+          "path": "frontend/src/components/site/TopNav.tsx",
+          "operation": "modify",
+          "description": "Verify top navigation background and focus ring styling continues to look modern and readable with the updated smart-blue tokens (bg-background translucency, ring color, border tint); make token-based class adjustments only if any contrast/regression appears after the palette change."
+        },
+        {
+          "path": "frontend/src/components/site/Footer.tsx",
+          "operation": "modify",
+          "description": "Verify footer muted background and borders render as smart-blue (not warm) with updated tokens; adjust token-based utility usage only if needed to keep consistent section separation and text contrast."
+        }
+      ]
+    }
+  ]
+}
